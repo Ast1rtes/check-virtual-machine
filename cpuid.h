@@ -1,0 +1,76 @@
+﻿#pragma once
+#include <iostream>
+
+int Cpuid();
+const char* cpu_ecx_buf[] =
+{
+	"SSE3",
+	"PCLMULDQ",
+	"DTES64",
+	"MONITOR",
+	"DSCPL",
+	"VMX",
+	"SMX",
+	"EISI",
+	"TM2",
+	"SSSE3",
+	"CNXTID",
+	"notvalue",
+	"FMA",
+	"CX16",
+	"xTPR",
+	"PDCM",
+	"notvalue",
+	"PCID",
+	"DCA",
+	"SSE41",
+	"SSE42",
+	"x2APIC",
+	"MOVBE",
+	"POPCNT",
+	"TSCDEANLINE",
+	"AES",
+	"XSAVE",
+	"OSXSAVE",
+	"AVX",
+	"F16C",
+	"RDRAND",
+	"zero"
+};
+
+const char* cpu_edx_buf[] = {
+	"FPU",
+	"VME",
+	"DE",
+	"PSE",
+	"TSC",
+	"MSR",
+	"PAE",
+	"MCE",
+	"CX8",
+	"APIC",
+	"notvalue",
+	"SEP",
+	"MTRR",
+	"PGE",
+	"MCA",
+	"CMOV",
+	"PAT",
+	"PSE - 36",
+	"PSN",
+	"CLFSH",
+	"notvalue",
+	"DS",
+	"ACPI",
+	"MMX",
+	"FXSP",
+	"SSE",
+	"SSE2",
+	"SS",
+	"HTT",
+	"TM",
+	"notvalue",
+	"PBE"
+
+
+};
